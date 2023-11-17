@@ -1,0 +1,123 @@
+https://underscores.me/
+
+https://developer.wordpress.org/reference/functions/wp_get_nav_menu_name/
+
+*wp display widgets in footer*
+
+https://www.tipsandtricks-hq.com/how-to-add-widgets-to-wordpress-themes-footer-1033
+
+*query posts wp*
+
+https://awhitepixel.com/blog/query-posts-in-wordpress/
+*simple loop wp*
+*loop*
+
+https://www.wpbeginner.com/glossary/loop/#:~:text=The%20loop%2C%20or%20WordPress%20loop,by%20default%20to%20display%20posts.
+
+https://codex.wordpress.org/The_Loop
+
+*get latest 3 posts*
+
+https://wordpress.stackexchange.com/questions/36453/how-to-display-last-3-posts-recent-posts-in-a-static-page
+
+
+*post content wp*
+
+**visual composer**
+
+https://www.youtube.com/watch?v=eU_kcALvRi8
+
+https://www.youtube.com/channel/UC8VqUAlmHoMs85jalFRv_mQ
+
+https://visualcomposer.com/blog/wordpress-archive-page-and-post-grid/
+
+
+*wp display featured image*
+
+https://developer.wordpress.org/reference/functions/the_post_thumbnail/
+
+https://developer.wordpress.org/themes/basics/the-loop/
+
+
+https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+
+*background img php*
+*php the post thumbnail url*
+
+https://developer.wordpress.org/reference/functions/the_post_thumbnail_url/
+
+*comments*
+https://stackoverflow.com/questions/30952163/single-page-wordpress-site-with-comments-box
+
+
+              <!-- <div class="messageBox" style="text-align:center;">
+<?php
+$comments_args = array(
+    'comment_notes_after' => '',
+    'label_submit'=>'Submit',
+    'title_reply' => '',
+    'logged_in_as' => '',
+    'comment_field' => '<p class="comment-form-comment"><label for="comment"></label><br /><textarea id="comment" name="comment" aria-required="true"></textarea></p>',
+);
+comment_form($comments_args);
+?>
+</div>  <!-- //messageBox -->
+<div class="commentBoxesWrap">
+    <?php wp_list_comments('type=comment&callback=showcomments'); //this is a call back to a function in functions.php ?>
+</div>  //commentBoxesWrap -->
+
+*themeforest*
+https://themeforest.net/category/wordpress/creative?date=this-year&sort=sales
+
+https://preview.themeforest.net/item/laurits-portfolio-and-agency-theme/full_screen_preview/33788013?_ga=2.185415466.241212031.1649593437-524580833.1525945251
+
+
+
+ <?php
+ /**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty
+ * @since Twenty Twenty 1.0
+ */
+
+ get_header();
+ ?>
+*wp page template*
+*page template*
+https://www.smashingmagazine.com/2015/06/wordpress-custom-page-templates/
+
+https://developer.wordpress.org/themes/template-files-section/page-template-files/
+*generate Map*
+https://google-map-generator.com/#copy
+
+*custom post type*
+
+https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/
+
+*custom-taxonomy*
+
+https://www.wpbeginner.com/wp-tutorials/create-custom-taxonomies-wordpress/#:~:text='%20So%20make%20sure%20you%20have,will%20go%20in%20your%20URL)
+
+https://metabox.io/how-to-add-custom-taxonomy-using-codes-and-plugins-in-wordpress/
+
+https://wordpress.stackexchange.com/questions/51013/how-to-query-custom-post-type-by-term
+*form php*
+https://www.tutorialrepublic.com/php-tutorial/php-form-handling.php
+
+*query_posts('offset=1');*
+
+https://stackoverflow.com/questions/19369735/exclude-only-first-post-from-one-category-from-the-latest-posts-feed-wordpress
+*wp_reset_query*
+https://wordpress.stackexchange.com/questions/144343/wp-reset-postdata-or-wp-reset-query-after-a-custom-loop
+*how to get most popular post*
+
+https://www.wpbeginner.com/wp-tutorials/how-to-track-popular-posts-by-views-in-wordpress-without-a-plugin/
